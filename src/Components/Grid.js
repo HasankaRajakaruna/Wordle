@@ -3,13 +3,13 @@ import Row from './Row'
 
 export default function Grid({currentGuess,guess,turn}) {
   return (
-    // <div>
-    //     {
-    //         guess.map((g,i)=>{
-    //             return <Row key={i} guess={g}/>
-    //         })
-    //     }
+    <div>
+        {
+            guess.map((g,i)=>{
+                return <Row key={i} guess={g}/>
+            })
+        }
         
-    // </div>
+    </div>
   )
 }
